@@ -4,13 +4,13 @@
  * LICENSE file in the root directory of this source tree.
  * @format
  */
-const repoUrl = 'https://github.com/facebook/flipper';
+const repoUrl = 'https://github.com/aiegoo/flipper';
 
 const siteConfig = {
   title: 'Flipper' /* title for your website */,
   tagline: 'Extensible mobile app debugging',
-  url: 'https://fbflipper.com/' /* your website url */,
-  baseUrl: '/' /* base url for your project */,
+  url: 'https://aiegoo.github.io' /* your website url */,
+  baseUrl: '/flipper' /* base url for your project */,
   projectName: 'flipper',
   headerLinks: [
     {doc: 'features/index', label: 'Features'},
@@ -18,7 +18,7 @@ const siteConfig = {
     {doc: 'extending/index', label: 'Extending'},
     {href: repoUrl, label: 'GitHub'},
   ],
-  editUrl: 'https://github.com/facebook/flipper/blob/master/docs/',
+  editUrl: 'https://github.com/aiegoo/journalBare/blob/master/docs/',
   /* path to images for header/footer */
   headerIcon: 'img/icon.png',
   footerIcon: 'img/mascot.png',
